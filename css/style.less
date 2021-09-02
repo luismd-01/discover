@@ -381,12 +381,16 @@ button {
 
 .c-top {
   margin-top: 7rem;
+
 }
 .tab-top {
   margin-top: 5rem;
 }
 .c-bottom {
   margin-bottom: 1.5rem;
+  >h3{
+    font-size: 28px;
+  }
 }
 .c-bottom-2 {
   margin-bottom: 5rem;
@@ -396,9 +400,6 @@ button {
 }
 
 /* Primary navigation */
-
-.c-primary-nav {
-}
 
 .c-primary-nav__list {
   display: flex;
@@ -533,6 +534,9 @@ button {
 .c-dropdown__origin {
   position: relative;
 }
+.animation-role {
+  display: block;
+}
 .a-animation {  
   animation-name: floating;
   animation-duration: 3s;
@@ -594,17 +598,12 @@ button {
 .c-dropdown {
   position: absolute;
   inset: 100% auto auto -0.5rem;
-
   background-color: #fff;
   box-shadow: inset 0 0 0 1 * @rem @dark--200;
   border-radius: 0.5rem;
-
   min-width: 200 * @rem;
   min-inline-size: 200 * @rem;
-
   margin-top: 0.5rem;
-  inline-size-start: 0.5rem;
-
   &:not(.is-active) {
     display: none;
   }
@@ -667,7 +666,7 @@ button {
 
 section.content {
   position: relative;
-  background-color: #EBEDFA;
+  background-color: #fff;
 }
 
 h1 {
@@ -675,3 +674,242 @@ h1 {
   font-size: 30px;
   font-weight: 900;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {.gl-new {
+  &__section {
+    padding: 40px 20px;
+    &_1 {
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      overflow: hidden;
+    }
+    &_2 {
+      background: #fff;
+      * {
+        color: #000;
+      }
+    }
+    &_3 {
+        background: #EBEDFA;
+        * {
+          color: #000;
+        }
+        
+      }
+      &_4 {
+        background: #ffffff;
+        * {
+          color: #000;
+        }
+        
+      }
+      &_5-1 {
+      padding: 9rem;
+      }
+      &_5-2 {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      &_5-3 {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      &_6 {
+           background-color: #6333F5 ;
+           color: #fff;
+      }
+      &_7 {
+        background-color: #fff ;
+        color: #000;
+   }
+   &_8 {
+    background-color: #fff ;
+    color: #000;
+}
+      &_slide {
+        font-size: 35px;
+        margin-top: 15rem;
+      }
+    &_header {
+      font-size: 60px;
+      margin-top: 20rem;
+    }
+    &_art {
+      margin-top: 10rem;
+    }
+    &_subheader {
+      margin-top: 3rem;
+      font-size: 40px;
+    }
+    &_paragraf {
+      font-size: 20px;
+      width: 60%;
+      color: #5800ff;
+      font-family: "Poppins";
+      font-style: italic;
+    }
+    &_paragraf-2 {
+      margin-top: 2rem;
+      font-size: 25px;
+      line-height: 38px;
+      width: 85%;
+      margin-bottom: 3rem;
+    }
+    &_paragraf-3 {
+      margin-top: 2rem;
+      font-size: 25px;
+      line-height: 38px;
+    }
+    &_paragraf-4 {
+      font-size: 15px;
+      line-height: 25px;
+    }
+    &_main-header {
+      text-align: center;
+      font-size: 35px;
+      margin-top: 5rem;
+    }
+    &_main-testimonial {
+      width: 60%;
+      margin: auto;
+
+      > h1 {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        
+      }
+      > h2 {
+        font-size: 18px;
+        font-weight: 100;
+      }
+      > p {
+        font-size: 15px;
+      }
+    }
+    &_contact {
+      width: 100%;
+
+      > label {
+        color: #6333F5 !important;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      > h1 {
+         color: #000 !important;
+         font-size: 60px;
+      }
+      > p {
+        font-size: 20px;
+      }
+    }
+    &_main-testimonial img{
+      object-fit: cover;
+      border-radius: 50%;
+      width: 12rem;
+      height: 12rem;
+      
+    }
+    &_half-header {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      font-size: 35px;
+      margin-top: 8rem;
+    }
+    &_testimonials-header {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      font-size: 35px;
+      margin-top: 8rem;
+      color: #fff;
+    }
+    &_sub-title {
+      font-size: 35px;
+    }
+    &_slide-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 40px 40px 40px 0px;
+      object-fit: cover;
+    }
+    &_vertical-slide-img {
+      background-image: url("../images/p-1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &_flex-display {
+      display: grid;
+
+      >img{
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+
+      }
+    }
+  }
+}
+.c-bottom {
+  margin-bottom: 1.5rem;
+  >h3{
+    font-size: 28px;
+  }
+}
+.c-secondary-nav__list {
+
+  > h1 {
+    font-size: 50px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF005D;
+  }
+  > h2 {
+    font-size: 50px;
+    color: #000;
+  }
+  > h3 {
+    font-size: 50px;
+    color: #CCCFD2;
+  }
+  > p {
+    font-size: 20px;
+    color: #000;
+  }
+  > a {
+    font-size: 20px;
+    color: #FF005D !important;
+    display: flex;
+    outline: none !important;
+    vertical-align: middle;
+
+  }
+}
+.animation-role {
+  display: none;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
